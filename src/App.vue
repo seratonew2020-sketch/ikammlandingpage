@@ -50,6 +50,16 @@ const img = {
   kitchen8: "/images/kitchen/26e294570ec0b9d5184ff9eef706f9d1.jpg",
   closet1: "/images/48038575684187710c4c35dbe1780671.jpg",
   closet2: "/images/3df0d015b8049599b95155d6f18cfbf8.jpg",
+  serviceCafe: "/images/services/cafe.jpg",
+  serviceRestaurant: "/images/services/restaurant.jpg",
+  serviceRetail: "/images/services/retail.jpg",
+  serviceClinic: "/images/services/clinic.jpg",
+  serviceShowroom: "/images/services/showroom.jpg",
+  serviceOffice: "/images/services/office.jpg",
+  serviceSalon: "/images/services/salon.jpg",
+  serviceHotel: "/images/services/hotel.jpg",
+  servicePetshop: "/images/services/petshop.jpg",
+  serviceStudio: "/images/services/studio.jpg",
 };
 
 function onImgError(e, label) {
@@ -84,6 +94,20 @@ const serviceMedia = [
   { img: img.living1, icon: "fa-tv" },
   { img: img.kitchen1, icon: "fa-utensils" },
   { img: img.closet1, icon: "fa-shirt" },
+  { img: img.serviceCafe, icon: "fa-mug-saucer" },
+  { img: img.serviceShowroom, icon: "fa-store" },
+  { img: img.serviceRestaurant, icon: "fa-wine-glass" },
+  { img: img.serviceOffice, icon: "fa-building" },
+  { img: img.serviceClinic, icon: "fa-house-medical" },
+  { img: img.serviceSalon, icon: "fa-spa" },
+  { img: img.serviceRetail, icon: "fa-shirt" },
+  { img: img.serviceHotel, icon: "fa-hotel" },
+  { img: img.servicePetshop, icon: "fa-paw" },
+  { img: img.serviceStudio, icon: "fa-microphone-lines" },
+  { img: img.living6, icon: "fa-laptop-file" },
+  { img: img.living4, icon: "fa-door-open" },
+  { img: img.living2, icon: "fa-film" },
+  { img: img.kitchen6, icon: "fa-soap" },
 ];
 const services = computed(() =>
   t.value.services.items.map((item, idx) => ({
